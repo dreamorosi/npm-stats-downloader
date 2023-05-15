@@ -1,7 +1,7 @@
 {
-    "name": "ts-project-starter-template",
+    "name": "npm-stats-downloader",
     "version": "0.0.1",
-    "description": "An opinionated TypeScript project starter template",
+    "description": "Serverless utility that tracks your npm packages & stores the daily downloads for downstream analytics",
     "scripts": {
         "init-environment": "husky install",
         "build": "tsup",
