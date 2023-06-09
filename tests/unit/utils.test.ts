@@ -6,7 +6,7 @@ import {
 
 describe('getRequestPaths', () => {
   it.each([{ type: 'point' }, { type: 'range' }])(
-    'it creates the correct request path',
+    'it creates the correct request path for $type',
     async ({ type }) => {
       // Prepare
       const packages = ['@package/a', '@package/b'];

@@ -69,7 +69,7 @@ describe('Class: RequestService', () => {
         expectedQs: '?foo=2021-01-01',
       },
     ])(
-      'it makes a request with the correct query params',
+      'it makes a request with the correct query params $expectedQs',
       async ({ queryParams, expectedQs }) => {
         // Prepare
         mockPool
